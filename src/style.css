@@ -1,0 +1,39 @@
+#gameBoardContainer{
+    text-align: center;
+    top: 400px;
+    width: 50%;
+    margin: 0 auto;
+    height: 200px;
+}
+.blue{
+    background-color: #6666ff;
+}
+.red{
+    background-color: red;
+    border: 1px solid red;
+}
+.board{
+    display: grid;
+    margin: 10px;
+    grid-template-columns: repeat(10,20px);
+    grid-template-rows: repeat(10,20px);
+}
+
+.square{
+    border: 1px solid;
+    text-align: center;
+    padding-bottom: 2px;
+}
+
+#playerBoard{
+    float:left;
+    
+}
+
+#cpuBoard{
+    float :right;
+}
+
+
+
+
