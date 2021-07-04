@@ -56,6 +56,7 @@ function createBoard(container){
       square.setAttribute("id",i.toLocaleString('en-US',{minimumIntegerDigits: 2,useGrouping: false})); 
       i++;
       square.classList.add("square");
+      square.classList.add("dodgerblue");
       square.classList.add(player);
       container.appendChild(square);
       });

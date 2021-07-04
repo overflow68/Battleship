@@ -1,37 +1,56 @@
+body{
+    background-color: darkblue;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:red;
+}
+
+
 #gameBoardContainer{
     text-align: center;
     top: 400px;
     width: 50%;
     margin: 0 auto;
     height: 200px;
+    margin-top: 200px;
 }
 .blue{
-    background-color: #6666ff;
+    background-color:dimgrey;
 }
 .red{
     background-color: red;
     border: 1px solid red;
 }
+.dodgerblue{
+    background-color:dodgerblue;
+}
 .board{
     display: grid;
     margin: 10px;
-    grid-template-columns: repeat(10,20px);
-    grid-template-rows: repeat(10,20px);
+    grid-template-columns: repeat(10,40px);
+    grid-template-rows: repeat(10,40px);
+    
 }
 
 .square{
+    
     border: 1px solid;
     text-align: center;
     padding-bottom: 2px;
+    font-size:30px;
 }
 
 #playerBoard{
-    float:left;
+    position: absolute;
+    left:400px;
     
 }
 
 #cpuBoard{
-    float :right;
+    position:absolute;
+    right:400px;
+    
 }
 
 
