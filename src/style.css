@@ -1,5 +1,10 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     background-color: darkblue;
+    text-align: center;
 }
 h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -8,11 +13,9 @@ h1{
 
 
 #gameBoardContainer{
-    text-align: center;
-    top: 400px;
+    display: flex;
     width: 50%;
-    margin: 0 auto;
-    height: 200px;
+    margin: auto;
     margin-top: 200px;
 }
 .blue{
@@ -42,15 +45,14 @@ h1{
 }
 
 #playerBoard{
-    position: absolute;
-    left:400px;
+   
+    flex:1
     
 }
 
 #cpuBoard{
-    position:absolute;
-    right:400px;
-    
+   
+    flex:1
 }
 
 
