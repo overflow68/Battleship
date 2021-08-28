@@ -5,7 +5,6 @@
   "homepage": "https://overflow68.github.io/Battleship",
   "main": "index.js",
   "scripts": {
-    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
