@@ -31,7 +31,7 @@ let sinkedCPU;
     
    
     
-   console.log(sinkedPlayer)
+   
    
 
     squaress[0].forEach(square =>{
