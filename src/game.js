@@ -1,7 +1,7 @@
 import { boardFactory } from "./gameboard";
 import {shipFactory} from './battleships';
 
-let board = document.getElementById("gameBoardContainer");
+let board = document.getElementById("cont");
 let playerBoard = document.createElement("div");
 playerBoard.setAttribute("id","playerBoard");
 playerBoard.classList.add("board");

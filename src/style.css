@@ -13,10 +13,17 @@ h1{
 
 
 #gameBoardContainer{
-    display: flex;
-    width: 50%;
-    margin: auto;
+    width: 100%;
+   
     margin-top: 200px;
+    text-align: center;
+}
+#cont{
+    width: 70%;
+    margin:0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
 }
 .blue{
     background-color:dimgrey;
@@ -46,13 +53,13 @@ h1{
 
 #playerBoard{
    
-    flex:1
+   
+   
     
 }
 
 #cpuBoard{
-   
-    flex:1
+    
 }
 
 
